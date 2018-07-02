@@ -1,10 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #DCDCDC;
+  color: #000000;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #808080;
   float: left;
   position: fixed;
   width: 100%;
@@ -49,4 +50,56 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+/* My styles */
+
+h1 {
+  font-size: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  color:#CF2D0A;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.30em;
+  line-height: 1.2;
+  padding-bottom: 0.25em;
+}
+
+p {
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+
+figcaption {
+  font-size: 0.85em;
+  color: #808080;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#ffffff;
+} /* unvisited */
+
+a:visited {
+  color:#ffffff;
+} /* visited */
+
+a:hover {
+  color:#000000;
+} /* mouse over */
+
+a:active {
+  color:#CF2D0A;
+} /* selected */
+
+.author {
+  padding-bottom: 1em;
+  font-style: italic;
 }
